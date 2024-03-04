@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    transition: 0.5s;
+}
+
+.container {
+    width: 1140px;
+    max-width: 100%;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+@import "header";
+@import "prev"

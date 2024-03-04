@@ -1,0 +1,17 @@
+.header {
+    padding: 10px 0;
+    &__nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__menu {
+        display: flex;
+        align-items: center;
+        column-gap: 25px;
+        &-item {
+            color: #222;
+            font-family: "Open Sans";
+        }
+    }
+}
